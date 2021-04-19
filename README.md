@@ -16,6 +16,15 @@ Users can sort or filter the posts on the type of topic they want.
 # Post Modal
 A default modal for posting a post to the web application which all other users can see.
 ![Screenshot](post.JPG)
+
+# Profile Modal
+User can view aand edit his own profile details through this modal which will be updated in real time for other users to see.
+![Screenshot](profile.JPG)
+
+# Log Out Page
+Nothing gives more pleasure than a successfull logout.
+![Screenshot](logOut.JPG)
+
 ## Authors
 
 Contributors names and contact info
