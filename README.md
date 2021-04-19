@@ -3,8 +3,12 @@
 A simple blog website where users can post their own blogs and view other user's blogs.
 
 # Home Page
+The Welcome page of the web application
 ![Screenshot](Capture1.JPG)
 
+# Login Home Page
+Welcome screen after a successful user login showing all the recent posts with their thumbnails, likes and comments.
+![Screenshot](home.JPG)
 ## Authors
 
 Contributors names and contact info
