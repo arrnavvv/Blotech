@@ -8,8 +8,8 @@ A simple blog website where users can post their own blogs and view other user's
 
 Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Arnav Mahajan
+[@arrnavvv](https://github.com/arrnavvv)
 
 ## Version History
 
