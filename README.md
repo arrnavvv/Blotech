@@ -1,6 +1,6 @@
-# Project Title
+# My Blog
 
-Simple overview of use/purpose.
+A simple blog website where users can post their own blogs and view other user's blogs.
 
 ## Description
 
