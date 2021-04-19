@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	version="3.1">
+
+	<servlet>
+		<servlet-name>registerServet</servlet-name>
+		<servlet-class>com.blog.servlets.RegisterServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>registerServet</servlet-name>
+		<url-pattern>/register</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>loginServet</servlet-name>
+		<servlet-class>com.blog.servlets.LoginServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>loginServet</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>logoutServlet</servlet-name>
+		<servlet-class>com.blog.servlets.LogOutServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>logoutServlet</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+
+<servlet>
+		<servlet-name>editServlet</servlet-name>
+		<servlet-class>com.blog.servlets.EditServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>editServlet</servlet-name>
+		<url-pattern>/edit</url-pattern>
+	</servlet-mapping>
+	
+
+<servlet>
+		<servlet-name>addPostServlet</servlet-name>
+		<servlet-class>com.blog.servlets.AddPostServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>addPostServlet</servlet-name>
+		<url-pattern>/addPost</url-pattern>
+	</servlet-mapping>
+
+<servlet>
+		<servlet-name>likeServlet</servlet-name>
+		<servlet-class>com.blog.servlets.LikeServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>likeServlet</servlet-name>
+		<url-pattern>/like</url-pattern>
+	</servlet-mapping>
+
+
+	<display-name>BlogProject</display-name>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

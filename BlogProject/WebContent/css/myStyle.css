@@ -1,0 +1,8 @@
+.primary-background{
+	background-color: #5e35b1 !important;
+}
+
+.clip-p{
+	clip-path: polygon(0 0, 100% 0, 100% 86%, 75% 100%, 25% 100%, 0 91%);
+}
+
