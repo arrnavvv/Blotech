@@ -2,8 +2,8 @@
 
 A simple blog website where users can post their own blogs and view other user's blogs.
 
-#Home Page
-![Screenshot](Capture1.png)
+# Home Page
+![Screenshot](Capture1.JPG)
 
 ## Authors
 
